@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Você esta vendo a imagem completa?Experimenti abaixar o tamanho da sua janela.</p>
+    <picture>
+        <source media="(max-width: 200px)" srcset="imagem/github-pp.png" type="image/png">
+        <source media="(max-width: 400px)" srcset="imagem/github-p.png" type="image/png">
+        <source media="(max-width: 600px)" srcset="imagem/github-m.png" type="image/png">
+        <source media="(max-width: 850px)" srcset="imagem/github-g.png" type="image/png">
+        <img src="imagem/github-gg.png" alt="Imagen flexivel">
+    </picture>
+</body>
+</html>

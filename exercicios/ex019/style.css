@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Press+Start+2P&family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+/* em html e id = em css e #
+em html e class = em css e .
+*/
+
+body {
+    background-image: linear-gradient(to bottom, #9F3DFD, #7121FC, #474CF9);
+    background-attachment: fixed;
+
+    /* degrade */
+}
+main {
+    background-color: aliceblue;
+    /* a cor da folha  */
+    border-radius: 10px;
+    /* muda as pontas */
+    width: 500px;
+    /* tamanho da folha */
+    padding: 10px;
+    /* aumentar a folha  */
+    margin: auto;
+    /* local da folha  */
+    box-shadow: 7px 7px 15px #9F3DFD;
+}
+h1#principal{
+    font-family: 'Press Start 2P', cursive;
+    color: ivory;
+    text-align: center;
+    font-size: 30px;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    /* nome da fonte */
+    font-weight: lighter;
+    /* pesso da fonte */
+    font-size: 25px;
+    /* medida da fonte  */
+
+    /* medida da fonte */
+    text-decoration: underline;
+    /* decoracao */
+    /* ordem de font resumido -style-font-weight-font-size-font-family */
+
+
+}
+h2 {
+    font-family: 'Inconsolata', monospace;
+}
+.basico {
+    color: #474CF9;
+    font-weight: bold;
+    /* negrito */
+}
+.intermediario {
+    color: #7121FC;
+}
+.avancado {
+    color: #9F3DFD;
+}
+mark {
+    background-color: #a03dfd71;
+}

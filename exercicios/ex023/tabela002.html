@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA</title>
+    <style>
+        thead > tr > th {
+            position: sticky;
+            top: 0px;
+            background-color: rgb(100, 100, 100);
+        }
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: rgb(255, 255, 255);
+        }
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: lavender;
+        }
+        caption {
+            background-color: lavender;
+            color: black;
+            padding: 10px;
+            border-radius: 10px 10px 0px 0px;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        table {
+            width: 500px;
+            height: 300px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: bottom;
+        }
+        thead, tfoot {
+            background-color: rgb(100, 100, 100);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- 
+    ANOTOMIA PARA TABELAS GRANDES 
+    TABLE 
+        CAPTION
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH 
+        TFOOT
+            TR, TD, TH -->
+
+        <table>
+
+            <caption>Os Personagen mais Fortes dos Animes</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Posição</th>
+                    <th scope="col">Nome do personagen</th>
+                    <th scope="col">Anime</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td >1</td>
+                    <td>Kami Tenchi</td>
+                    <td>Tenchi Muyo</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>The Choushin</td>
+                    <td>Tenchi Muyo!</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Zeno</td>
+                    <td>Dragon Ball Super</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Anti-Spiral</td>
+                    <td>Gurren Lagann</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Kyubey </td>
+                    <td>Madoka Magica</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bernkastel</td>
+                    <td>Umineko no Naku Koro Ni</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Lambdadelta </td>
+                    <td>Umineko no Naku Koro Ni</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Mercurius</td>
+                    <td>Dies Irae</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Ren Fujii </td>
+                    <td>Dies Irae</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Madoka</td>
+                    <td>Puella Magi Madoka Magica</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th scope="row">O mais Forte</th>
+                <td>Saitama</td>
+                <td>One Punch-Man</td>
+            </tfoot>
+        </table>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos, accusantium hic quibusdam blanditiis tempora voluptatem eaque eum a eius, nesciunt pariatur quis veritatis. Quam commodi obcaecati quidem modi quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia autem culpa rem temporibus, eveniet animi minima soluta? Deleniti deserunt voluptatibus nesciunt a non eligendi sapiente asperiores adipisci, voluptas, molestiae placeat! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis aut impedit distinctio sit quibusdam omnis cum nisi velit doloribus ab tempore earum ut autem, quas deserunt dolorem similique blanditiis voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus neque corporis obcaecati laudantium. Explicabo amet a hic doloribus veritatis provident cupiditate corporis beatae, consectetur dicta aperiam dolorem nostrum unde repellendus!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos, accusantium hic quibusdam blanditiis tempora voluptatem eaque eum a eius, nesciunt pariatur quis veritatis. Quam commodi obcaecati quidem modi quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia autem culpa rem temporibus, eveniet animi minima soluta? Deleniti deserunt voluptatibus nesciunt a non eligendi sapiente asperiores adipisci, voluptas, molestiae placeat! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis aut impedit distinctio sit quibusdam omnis cum nisi velit doloribus ab tempore earum ut autem, quas deserunt dolorem similique blanditiis voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus neque corporis obcaecati laudantium. Explicabo amet a hic doloribus veritatis provident cupiditate corporis beatae, consectetur dicta aperiam dolorem nostrum unde repellendus!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos, accusantium hic quibusdam blanditiis tempora voluptatem eaque eum a eius, nesciunt pariatur quis veritatis. Quam commodi obcaecati quidem modi quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia autem culpa rem temporibus, eveniet animi minima soluta? Deleniti deserunt voluptatibus nesciunt a non eligendi sapiente asperiores adipisci, voluptas, molestiae placeat! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis aut impedit distinctio sit quibusdam omnis cum nisi velit doloribus ab tempore earum ut autem, quas deserunt dolorem similique blanditiis voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus neque corporis obcaecati laudantium. Explicabo amet a hic doloribus veritatis provident cupiditate corporis beatae, consectetur dicta aperiam dolorem nostrum unde repellendus!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos, accusantium hic quibusdam blanditiis tempora voluptatem eaque eum a eius, nesciunt pariatur quis veritatis. Quam commodi obcaecati quidem modi quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia autem culpa rem temporibus, eveniet animi minima soluta? Deleniti deserunt voluptatibus nesciunt a non eligendi sapiente asperiores adipisci, voluptas, molestiae placeat! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis aut impedit distinctio sit quibusdam omnis cum nisi velit doloribus ab tempore earum ut autem, quas deserunt dolorem similique blanditiis voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus neque corporis obcaecati laudantium. Explicabo amet a hic doloribus veritatis provident cupiditate corporis beatae, consectetur dicta aperiam dolorem nostrum unde repellendus!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos, accusantium hic quibusdam blanditiis tempora voluptatem eaque eum a eius, nesciunt pariatur quis veritatis. Quam commodi obcaecati quidem modi quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia autem culpa rem temporibus, eveniet animi minima soluta? Deleniti deserunt voluptatibus nesciunt a non eligendi sapiente asperiores adipisci, voluptas, molestiae placeat! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis aut impedit distinctio sit quibusdam omnis cum nisi velit doloribus ab tempore earum ut autem, quas deserunt dolorem similique blanditiis voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus neque corporis obcaecati laudantium. Explicabo amet a hic doloribus veritatis provident cupiditate corporis beatae, consectetur dicta aperiam dolorem nostrum unde repellendus!</p>
+</body>
+</html>

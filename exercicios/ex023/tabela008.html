@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      caption {
+        padding: 10px;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-style: italic;
+      }
+      thead {
+        background-color: aliceblue;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+      }
+      div#conteiner {
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de Tabelas</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+      repellendus at totam, pariatur quibusdam aut adipisci hic ab dolorem
+      commodi, porro, ratione laboriosam ea dolor tempora recusandae eos unde!
+      Expedita! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Aspernatur, id molestias in, harum explicabo rem similique obcaecati neque
+      inventore dicta, quidem tempora ad suscipit aliquid dolores ut iste at
+      ipsam.
+    </p>
+    <div id="conteiner">
+      <table>
+        <caption>
+          Filme
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th scope="colgroup" colspan="3">Filme</th>
+          </tr>
+        </thead>
+        <tboody>
+          <tr>
+            <th scope="colgroup" rowspan="3">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+          </tr>
+          <tr>
+            <td>Beatriz Souza</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+          </tr>
+          <tr>
+            <td>Cláudia Melo</td>
+            <td>Intocáveis</td>
+            <td>Amenésia</td>
+            <td>Gladiador</td>
+          </tr>
+          <tr>
+            <th scope="colgroup" rowspan="3">Homens</th>
+            <td>Brunom Mendonça</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingador</td>
+          </tr>
+          <tr>
+            <td>Daniel Lourenço</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+          </tr>
+          <tr>
+            <td>Fabio Moto</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+          </tr>
+        </tboody>
+      </table>
+    </div>
+  </body>
+</html>

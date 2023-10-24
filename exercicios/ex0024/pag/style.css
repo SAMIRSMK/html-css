@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    body {
+        cursor: url('caminho-para-o-seu-cursor.png'), auto;
+    }
+    
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(226, 17, 212);
+    border-radius: 50%;
+    position: absolute;
+    
+    
+    transform: translate(-50%, -50%);
+    animation: moveCursor 10s linear infinite; /* Animação de movimento do cursor */
+}
+
+@keyframes moveCursor {
+    0% {
+        left: 100%;
+        top: 20%;
+    }
+    25% {
+        left: 80%;
+        top: 20%;
+    }
+    50% {
+        left: 60%;
+        top: 50%;
+    }
+    75% {
+        left: 30%;
+        top: 80%;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
